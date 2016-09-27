@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_orange_light">
+
+    <TextView
+        android:layout_width="185dp"
+        android:layout_height="wrap_content"
+        android:text="Experience"
+        android:id="@+id/textView12"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="30dp"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Underwent training at MENTORS in &quot;Android App Dev&quot; for -6-7 weeks in June July 2016"
+        android:id="@+id/textView13"
+        android:textSize="23dp"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Underwent training at KALYAN-IT in C programming "
+        android:id="@+id/textView14"
+        android:textColor="@android:color/black"
+        android:textSize="23dp"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Currently attending an online workshop at The Climber in Android App development"
+        android:id="@+id/textView15"
+        android:textSize="23dp"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Currently working on a project based on Android and PHP under Dr.Viraj Kumar"
+        android:id="@+id/textView16"
+        android:textColor="@android:color/black"
+        android:textSize="23dp"
+        android:layout_marginTop="15dp" />
+
+</LinearLayout>

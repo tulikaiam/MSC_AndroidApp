@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+    tools:context="com.example.tulika.knowme.Welcome"
+    android:weightSum="1"
+    android:background="@color/colorAccent">
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Android Love"
+        android:textSize="20dp"
+        android:textColor="#d40707"
+        android:background="#fff201"
+        android:id="@+id/button3"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignBottom="@+id/button"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="Skill"
+        android:id="@+id/button"
+        android:textSize="20dp"
+        android:textColor="#d40707"
+        android:background="#fff201"
+        android:ellipsize="marquee"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="experience"
+        android:id="@+id/button4"
+        android:textSize="20dp"
+        android:textColor="#d40707"
+        android:background="#fff201"
+        android:ellipsize="marquee"
+        android:layout_alignTop="@+id/button2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Achievements"
+        android:textSize="20dp"
+        android:textColor="#d40707"
+        android:background="#fff201"
+        android:id="@+id/button2"
+        android:layout_weight="0.1"
+        android:layout_below="@+id/button5"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dream Project"
+        android:textSize="20dp"
+        android:background="@drawable/button_border"
+        android:textColor="#fff0"
+
+        android:id="@+id/button5"
+        android:layout_below="@+id/button3"
+        android:layout_toRightOf="@+id/button"
+        android:layout_toEndOf="@+id/button" />
+
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="400dp"
+        android:id="@+id/imageView"
+         android:src="@mipmap/img"
+
+        android:layout_below="@+id/button4"
+        android:layout_alignRight="@+id/button2"
+        android:layout_alignEnd="@+id/button2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Know More About ME!"
+        android:id="@+id/textView"
+        android:typeface="serif"
+        android:textSize="33dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textColor="@android:color/background_light" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:id="@+id/myframe"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/button3"
+        android:layout_alignEnd="@+id/button3"></FrameLayout>
+</RelativeLayout>
+</ScrollView>

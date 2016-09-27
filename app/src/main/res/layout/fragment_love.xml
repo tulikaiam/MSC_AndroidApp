@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="@android:color/holo_orange_light">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Android Love &lt;3"
+        android:id="@+id/textView9"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:layout_weight="0.10" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Android being a cross platform OS unlike IOS is one of the main reasons why i prefer it . Other than that it has customizable launchers."
+        android:id="@+id/textView10"
+        android:textColor="@android:color/black"
+        android:textSize="25dp" />
+
+    <TextView
+        android:layout_width="386dp"
+        android:layout_height="wrap_content"
+        android:text="Most of the apps are available free of cost"
+        android:id="@+id/textView11"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.10"
+        android:textColor="@android:color/black"
+        android:textSize="23dp" />
+
+</LinearLayout>

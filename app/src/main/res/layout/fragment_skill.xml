@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="@android:color/holo_orange_light">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SKILL SET"
+        android:id="@+id/textView2"
+        android:textSize="26dp"
+        android:textIsSelectable="false"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@android:color/holo_red_dark" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Java"
+        android:id="@+id/textView3"
+        android:textSize="23dp"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Programming in C"
+        android:id="@+id/textView4"
+        android:textSize="23dp"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Net Beans"
+        android:id="@+id/textView5"
+        android:textSize="23dp"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Android Studio"
+        android:id="@+id/textView6"
+        android:textColor="@android:color/black"
+        android:textSize="23dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView8"
+        android:text="PHP"
+        android:textSize="23dp"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Sql"
+        android:id="@+id/textView26"
+        android:textSize="23dp"
+        android:textColor="@android:color/black" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="291dp"
+        android:id="@+id/imageView3"
+        android:src="@mipmap/skill"
+        android:layout_weight="1.45" />
+
+</LinearLayout>

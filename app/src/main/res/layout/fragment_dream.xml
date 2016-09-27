@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_orange_light"
+    android:weightSum="1"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dream Project"
+        android:id="@+id/textView17"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="25dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView18" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView20"
+        android:layout_weight="0.06"
+        android:text="This isn&apos;t exactly my dream project , but yes, this is one of the app that I&apos;d wanna come up with"
+        android:textColor="@android:color/black"
+        android:textIsSelectable="false"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="So, the app is basically for the students who use the college bus.There can be a live  tracking app for all the students who commute by the collge bus  "
+        android:id="@+id/textView21"
+        android:layout_weight="0.64"
+        android:textSize="20dp"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Using the app , they can get to know the current location of the bus , and in case they miss the bus at their stop they can use the app and get into the bus at some other stop"
+        android:id="@+id/textView22"
+        android:layout_weight="0.03"
+        android:textColor="@android:color/black"
+        android:textSize="20dp"
+        android:allowUndo="false" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:text="Each Student who has registered for the college bus facility can have a unique login id and can use the app keying the id in"
+        android:id="@+id/textView23"
+        android:textColor="@android:color/black"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1.64" />
+</LinearLayout>
+    </ScrollView>
