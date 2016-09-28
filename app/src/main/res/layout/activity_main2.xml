@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+  android:orientation="vertical"
+    tools:context="com.example.tulika.knowme.Main2Activity"
+    android:weightSum="1"
+    android:background="#f9f349">
+
+    <TextView
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:text="    Personal Details"
+        android:id="@+id/textView27"
+        android:textSize="40dp"
+        android:textColor="#251dbe"
+        android:textIsSelectable="false" />
+
+    <ImageView
+        android:layout_width="245dp"
+        android:layout_height="150dp"
+        android:id="@+id/imageView4"
+        android:layout_gravity="left"
+
+        android:layout_marginLeft="80dp"
+        android:src="@mipmap/me" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NAME: Tulika Sureka"
+        android:textSize="30dp"
+        android:textColor="#800000"
+        android:id="@+id/textView29" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="27dp"
+    android:textColor="#800000"
+        android:text="CONTACT-9663126670"
+        android:id="@+id/textView28"
+        android:layout_marginTop="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:textColor="#800000"
+        android:text="Email id-tulikasureka4@gmail.com"
+        android:id="@+id/textView30"
+        android:layout_marginTop="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:textColor="#800000"
+        android:text="Areas of Interest:-Android App dev,Ethical Hacking , Competitive coding"
+        android:id="@+id/textView33"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="27dp"
+        android:textColor="#800000"
+        android:text="HOBBIES:-Reading tech stuff, Playing guitar ,Poetry ,Coding"
+        android:id="@+id/textView31"
+        android:layout_marginTop="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="27dp"
+        android:textColor="#800000"
+        android:text="Passion-Keen to know and learn new stuff"
+        android:id="@+id/textView32"
+        android:layout_marginTop="15dp"
+        android:layout_weight="0.45" />
+
+    <Button
+        android:layout_width="116dp"
+        android:layout_height="wrap_content"
+        android:text="Know More!"
+        android:id="@+id/button7"
+        android:layout_gravity="center_horizontal"
+        android:background="#f0b254" />
+
+</LinearLayout>
+</ScrollView>

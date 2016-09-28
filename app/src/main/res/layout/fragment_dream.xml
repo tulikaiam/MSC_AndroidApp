@@ -53,12 +53,11 @@
         android:allowUndo="false" />
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="200dp"
+        android:layout_height="101dp"
         android:text="Each Student who has registered for the college bus facility can have a unique login id and can use the app keying the id in"
         android:id="@+id/textView23"
         android:textColor="@android:color/black"
-        android:textSize="20dp"
-        android:layout_marginTop="10dp"
-        android:layout_weight="1.64" />
+        android:textSize="17dp"
+        android:layout_marginTop="0dp" />
 </LinearLayout>
     </ScrollView>
